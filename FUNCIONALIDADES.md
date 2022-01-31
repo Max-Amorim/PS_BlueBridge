@@ -3,7 +3,7 @@
     O projeto com as novas funcionalidades utilizou-se da base ja criada pelo vídeo já disponibilizado pelo email.
 
 # Consideraçãoes iniciais
-    Para o correto funcionamento do projeto, é preciso que se altere o item config.py com email (gmail) e senha do usuário,
+Para o correto funcionamento do projeto, é preciso que se altere o item config.py com email (gmail) e senha do usuário,
 pois eu considerei que um usuário (adm) enviará um email com seu email de usuário para outra pessoa (fictícia), em que essa
 pessoa fictícia receberá as instruções das funcionalidades. Além disso, para o correto funcionamento do teste, é preciso
 desativar a verificação em duas etapas no gmail e ativar o acesso a app menos seguro na aba "segurança". É preciso também, 
