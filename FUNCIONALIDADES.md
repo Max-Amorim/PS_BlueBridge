@@ -1,36 +1,28 @@
-# FlaskIntroduction
+# Novas Funcionalidades
 
-This repo has been updated to work with `Python v3.8` and up.
+    O projeto com as novas funcionalidades utilizou-se da base ja criada pelo vídeo já disponibilizado pelo email.
 
-### How To Run
-1. Install `virtualenv`:
-```
-$ pip install virtualenv
-```
+# Consideraçãoes iniciais
+    Para o correto funcionamento do projeto, é preciso que se altere o item config.py com email (gmail) e senha do usuário,
+pois eu considerei que um usuário (adm) enviará um email com seu email de usuário para outra pessoa (fictícia), em que essa
+pessoa fictícia receberá as instruções das funcionalidades. Além disso, para o correto funcionamento do teste, é preciso
+desativar a verificação em duas etapas no gmail e ativar o acesso a app menos seguro na aba "segurança". É preciso também, 
+ativar a opção IMAP na aba "encaminhamento e POP/IMAP". É preciso tudo isso pois seá usado o acesso ao email (admin) para 
+enviar as requisiçoes para o email do usuário fictício.
 
-2. Open a terminal in the project root directory and run:
-```
-$ virtualenv env
-```
+# As funcionalidades
 
-3. Then run the command:
-```
-$ .\env\Scripts\activate
-```
+    Foiram implementadas as funçoes de "Nome, E-mail, Tarefa e descrição", em que após preenchidos, será enviado um 
+email para uma determinada pessoa fictícia (pensei numa pessoa que trabalha numa empresa, por exemplo). Então,
+esse email carregará o nome e amail da pessoa (adimin) que enviará as instruções. As instruções são a tarefa
+ou tipo de tarefa e a descrição dessa tarefa, ou seja, instruçoes de como fazer ou resolver aquela determinada 
+tarefa passada pelo usuário admin. O espaço "Email" a ser preenchido será com o email do usuário fictício.
 
-4. Then install the dependencies:
-```
-$ (env) pip install -r requirements.txt
-```
+    No corpo do email terá a segunte menssagem:
+    
+    "Nome do admin" com o email "email do admin" te enviou a seguinte tarefa:
 
-5. Finally start the web server:
-```
-$ (env) python app.py
-```
+                Tarefa: "Tarefa ou tipo de tarefa"
 
-This server will start on port 5000 by default. You can change this in `app.py` by changing the following line to this:
+                Descrição: "Descrição da tarefa"
 
-```python
-if __name__ == "__main__":
-    app.run(debug=True, port=<desired port>)
-```
