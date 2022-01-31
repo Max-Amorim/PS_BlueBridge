@@ -18,11 +18,11 @@ esse email carregará o nome e amail da pessoa (adimin) que enviará as instruç
 ou tipo de tarefa e a descrição dessa tarefa, ou seja, instruçoes de como fazer ou resolver aquela determinada 
 tarefa passada pelo usuário admin. O espaço "Email" a ser preenchido será com o email do usuário fictício.
 
-    No corpo do email terá a segunte menssagem:
+No corpo do email terá a segunte menssagem:
     
     "Nome do admin" com o email "email do admin" te enviou a seguinte tarefa:
 
-                Tarefa: "Tarefa ou tipo de tarefa"
+    Tarefa: "Tarefa ou tipo de tarefa"
 
-                Descrição: "Descrição da tarefa"
+    Descrição: "Descrição da tarefa"
 
