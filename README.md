@@ -23,7 +23,11 @@ $ .\env\Scripts\activate
 $ (env) pip install -r requirements.txt
 ```
 
-5. Finally start the web server:
+5. Run the command:
+```
+$ pip3 install Flask-Mail
+```
+6. Finally start the web server:
 ```
 $ (env) python app.py
 ```
