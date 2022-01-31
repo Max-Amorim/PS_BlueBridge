@@ -12,7 +12,7 @@ enviar as requisiçoes para o email do usuário fictício.
 
 # As funcionalidades
 
-    Foiram implementadas as funçoes de "Nome, E-mail, Tarefa e descrição", em que após preenchidos, será enviado um 
+Foiram implementadas as funçoes de "Nome, E-mail, Tarefa e descrição", em que após preenchidos, será enviado um 
 email para uma determinada pessoa fictícia (pensei numa pessoa que trabalha numa empresa, por exemplo). Então,
 esse email carregará o nome e amail da pessoa (adimin) que enviará as instruções. As instruções são a tarefa
 ou tipo de tarefa e a descrição dessa tarefa, ou seja, instruçoes de como fazer ou resolver aquela determinada 
